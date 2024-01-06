@@ -17,8 +17,8 @@ find_package(catkin REQUIRED COMPONENTS
         tf
 )
 
-find_package(PCL)
-find_package(Glog)
+find_package(PCL REQUIRED)
+find_package(Glog REQUIRED)
 find_package(GTSAM REQUIRED)
 #set(Ceres_DIR "/usr/lib/cmake/Ceres")
 find_package(Ceres REQUIRED)
